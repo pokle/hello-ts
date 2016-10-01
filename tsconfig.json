@@ -3,8 +3,16 @@
         "module": "commonjs",
         "target": "es5",
 
+        "allowJs": true,
         "noImplicitAny": false,
         "sourceMap": true,
-        "outDir": "dist"
+        "outDir": "dist",
+        "baseUrl": "src",
+        "paths": {
+             "*": [
+                    "*",
+                    "components/*"
+                ]
+        }
     }
 }

@@ -1,13 +1,10 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
-        "target": "es3",
-
         "allowJs": true,
         "noImplicitAny": true,
         "sourceMap": true,
-
         "outDir": "dist",
+        "rootDir": "src",
         "baseUrl": "src",
         "paths": {
              "*": [
@@ -15,5 +12,10 @@
                     "components/*"
                 ]
         }
-    }
+    },
+
+    "exclude": [
+        "webpack.config.js",
+        "node_modules"
+    ]
 }

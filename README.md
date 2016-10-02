@@ -9,4 +9,3 @@
 ## Explore
 
 - Notice how src/main.ts imports src/components/math
-    - 
